@@ -113,3 +113,5 @@ frontend/.cache/
 
 # 忽略大语言模型缓存（若使用本地模型）
 models_cache/
+
+vibeCodingTools/
