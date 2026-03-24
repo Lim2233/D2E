@@ -1,0 +1,1 @@
+# 封装文本向量化（SentenceTransformer），用于语义匹配。

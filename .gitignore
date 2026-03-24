@@ -1,3 +1,4 @@
+# 指定 Git 忽略的文件和目录（如虚拟环境、缓存、敏感配置等）。
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
