@@ -53,6 +53,7 @@ secrets.*
 backend/data/uploads/
 backend/data/templates/
 backend/data/output/
+backend/data/test_output/
 !backend/data/.gitkeep
 
 # IDE and editor files

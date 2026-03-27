@@ -126,26 +126,23 @@
 ```
 project/
 ├── backend/
-│   ├── api/                 # FastAPI 路由
-│   │   ├── routes.py
-│   │   └── models.py        # Pydantic 模型
-│   ├── core/                # 核心业务逻辑
-│   │   ├── parser.py        # 文档解析
-│   │   ├── extractor.py     # 信息抽取
-│   │   ├── matcher.py       # 语义匹配
-│   │   └── filler.py        # 自动填表
-│   ├── storage/             # 数据持久化
-│   │   ├── database.py
-│   │   └── knowledge_pool.py
-│   ├── utils/               # 工具函数
-│   │   ├── text_clean.py
-│   │   └── logger.py
-│   └── main.py              # 应用入口
-├── frontend/                # Streamlit 或 Gradio 应用
-│   └── app.py
-├── tests/                   # 单元测试
-├── data/                    # 测试数据
-├── requirements.txt
+│   ├── app/                 # 应用核心代码
+│   │   ├── services/        # 核心业务逻辑
+│   │   │   ├── parser.py        # 文档解析（已完成）
+│   │   │   ├── extractor.py     # 信息抽取（已完成）
+│   │   │   ├── matcher.py       # 语义匹配
+│   │   │   ├── filler.py        # 自动填表
+│   │   │   └── knowledge_pool.py # 知识池
+│   │   ├── main.py              # 应用入口
+│   │   └── models.py           # 数据模型
+│   ├── data/                # 数据目录
+│   │   ├── test_set/       # 测试数据集
+│   │   └── test_output/    # 测试输出（gitignore）
+│   ├── test_parser.py       # 文档解析测试脚本
+│   ├── test_extractor.py    # 信息抽取测试脚本
+│   └── requirements.txt
+├── docs/                   # 文档
+├── frontend/               # 前端代码
 └── README.md
 ```
 
@@ -200,18 +197,58 @@ project/
 ### 9.1 生成模块代码
 - 要求：实现文档解析模块，支持 .docx 和 .txt
 - 输出：符合第 3 节 JSON 格式的 Python 函数
+- 状态：已完成（支持 Word、Excel、Markdown、TXT）
 
 ### 9.2 设计数据库模型
 - 要求：设计知识池的 SQLite 表结构
 - 输出：包含 `documents` 和 `entities` 表的 SQL DDL
+- 状态：待实现
 
 ### 9.3 编写 API 路由
 - 要求：实现 `/fill_template` 接口
 - 输出：FastAPI 路由代码，包含请求验证、调用核心模块、返回文件
+- 状态：待实现
 
 ### 9.4 优化性能
 - 要求：为文档解析模块添加多线程支持
 - 输出：使用 `ThreadPoolExecutor` 的代码示例
+- 状态：待实现
+
+## 10. 已完成模块说明
+
+### 10.1 文档解析模块（parser.py）
+- 支持格式：Word (.docx)、Excel (.xlsx)、Markdown (.md)、TXT (.txt)
+- 输出格式：统一的 JSON 结构，包含 doc_id、paragraphs、tables、raw_text
+- 特殊处理：Word 文件添加了备用解析方案（使用 zipfile + XML 解析）
+- 测试状态：已通过测试，所有格式解析正常
+
+### 10.2 信息抽取模块（extractor.py）
+- 支持方法：正则表达式、NER 模型（可选）、大语言模型（可选）
+- 抽取实体类型：金额、日期、百分比、电话、邮箱等
+- 测试状态：已通过测试，从 4 个文档中抽取 4,756 个实体
+- 测试脚本：test_extractor.py
+
+## 11. 待完成模块
+
+### 11.1 字段语义匹配模块（matcher.py）
+- 功能：将模板字段与抽取实体进行语义对齐
+- 技术：sentence-transformers、向量相似度计算
+- 状态：待实现
+
+### 11.2 知识池模块（knowledge_pool.py）
+- 功能：存储实体信息，支持快速查询
+- 技术：SQLite / MongoDB
+- 状态：待实现
+
+### 11.3 自动填表模块（filler.py）
+- 功能：根据模板生成 Excel 或 Word 结果文件
+- 技术：openpyxl、python-docx
+- 状态：待实现
+
+### 11.4 API 接口（main.py）
+- 功能：提供 REST API 供前端调用
+- 接口：/upload_docs、/fill_template、/entities
+- 状态：待实现
 
 ---
 

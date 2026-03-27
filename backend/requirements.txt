@@ -2,6 +2,8 @@
 fastapi==0.115.11          # 后端 API 框架
 uvicorn[standard]==0.34.0  # ASGI 服务器
 python-multipart==0.0.20   # 文件上传支持
+Flask==2.0.1               # Flask 框架（替代方案）
+Werkzeug==2.0.1            # Flask 依赖
 
 # 文档解析
 python-docx==1.1.2         # Word 文档解析

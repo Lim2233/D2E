@@ -1,49 +1,44 @@
 """
-FastAPI 应用入口，定义所有 API 路由和启动逻辑
+Flask 应用入口，作为 FastAPI 的替代方案
 """
 import os
-import sys
 import tempfile
+from flask import Flask, request, jsonify, send_file
 from typing import List
-
-# 延迟导入 FastAPI，避免在模块加载时触发 asyncio 错误
-from fastapi import FastAPI, UploadFile, File, HTTPException
-from fastapi.responses import FileResponse
 
 from app.services.parser import parse_document
 from app.services.extractor import extract_entities
 from app.services.matcher import match_entities
 from app.services.filler import fill_template, extract_template_fields
 from app.services.knowledge_pool import KnowledgePool
-from app.database import get_db_connection
 
-# 创建 FastAPI 应用
-app = FastAPI(
-    title="文档理解与多源数据融合系统",
-    description="基于大语言模型的文档解析、信息抽取与自动填表系统",
-    version="1.0.0"
-)
+# 创建 Flask 应用
+app = Flask(__name__)
 
 # 初始化知识池
 knowledge_pool = KnowledgePool()
 
 
-@app.post("/upload_docs")
-async def upload_docs(files: List[UploadFile] = File(...)):
+@app.route('/upload_docs', methods=['POST'])
+def upload_docs():
     """
     上传文档并解析抽取实体
     """
+    if 'files' not in request.files:
+        return jsonify({"error": "No files provided"}), 400
+    
+    files = request.files.getlist('files')
     doc_ids = []
     
     for file in files:
         # 检查文件类型
         file_ext = os.path.splitext(file.filename)[1].lower()
         if file_ext not in ['.docx', '.xlsx', '.md', '.txt']:
-            raise HTTPException(status_code=400, detail=f"不支持的文件格式: {file_ext}")
+            return jsonify({"error": f"不支持的文件格式: {file_ext}"}), 400
         
         # 保存临时文件
         with tempfile.NamedTemporaryFile(suffix=file_ext, delete=False) as tmp:
-            content = await file.read()
+            content = file.read()
             tmp.write(content)
             temp_path = tmp.name
         
@@ -64,22 +59,26 @@ async def upload_docs(files: List[UploadFile] = File(...)):
             if os.path.exists(temp_path):
                 os.remove(temp_path)
     
-    return {"doc_ids": doc_ids, "message": "success"}
+    return jsonify({"doc_ids": doc_ids, "message": "success"})
 
 
-@app.post("/fill_template")
-async def fill_template_endpoint(template: UploadFile = File(...)):
+@app.route('/fill_template', methods=['POST'])
+def fill_template_endpoint():
     """
     上传模板并自动填表
     """
+    if 'template' not in request.files:
+        return jsonify({"error": "No template provided"}), 400
+    
+    template = request.files['template']
     # 检查文件类型
     file_ext = os.path.splitext(template.filename)[1].lower()
     if file_ext not in ['.xlsx', '.docx']:
-        raise HTTPException(status_code=400, detail=f"不支持的模板格式: {file_ext}")
+        return jsonify({"error": f"不支持的模板格式: {file_ext}"}), 400
     
     # 保存临时文件
     with tempfile.NamedTemporaryFile(suffix=file_ext, delete=False) as tmp:
-        content = await template.read()
+        content = template.read()
         tmp.write(content)
         temp_path = tmp.name
     
@@ -97,10 +96,10 @@ async def fill_template_endpoint(template: UploadFile = File(...)):
         output_path = fill_template(temp_path, matches)
         
         # 返回生成的文件
-        return FileResponse(
-            path=output_path,
+        return send_file(
+            path_or_file=output_path,
             filename=f"filled_{template.filename}",
-            media_type="application/octet-stream"
+            as_attachment=True
         )
         
     finally:
@@ -109,25 +108,28 @@ async def fill_template_endpoint(template: UploadFile = File(...)):
             os.remove(temp_path)
 
 
-@app.get("/entities")
-async def get_entities(doc_id: str):
+@app.route('/entities', methods=['GET'])
+def get_entities():
     """
     查询指定文档的实体
     """
+    doc_id = request.args.get('doc_id')
+    if not doc_id:
+        return jsonify({"error": "doc_id is required"}), 400
+    
     entities = knowledge_pool.get_entities_by_doc_id(doc_id)
     if not entities:
-        raise HTTPException(status_code=404, detail=f"文档 {doc_id} 不存在或无实体")
-    return entities
+        return jsonify({"error": f"文档 {doc_id} 不存在或无实体"}), 404
+    return jsonify(entities)
 
 
-@app.get("/")
-async def root():
+@app.route('/')
+def root():
     """
     根路径
     """
-    return {"message": "文档理解与多源数据融合系统 API"}
+    return jsonify({"message": "文档理解与多源数据融合系统 API"})
 
 
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    app.run(host="0.0.0.0", port=8000, debug=True)

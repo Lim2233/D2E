@@ -57,26 +57,56 @@ def _parse_docx(file_path: str) -> tuple:
     """
     解析 Word 文档
     """
-    doc = Document(file_path)
     paragraphs = []
     tables = []
     raw_text = ""
     
-    # 提取段落
-    for para in doc.paragraphs:
-        text = para.text.strip()
-        if text:
-            paragraphs.append(text)
-            raw_text += text + "\n"
-    
-    # 提取表格
-    for table in doc.tables:
-        table_data = []
-        for row in table.rows:
-            row_data = [cell.text.strip() for cell in row.cells]
-            table_data.append(row_data)
-        if table_data:
-            tables.append(table_data)
+    try:
+        doc = Document(file_path)
+        
+        # 提取段落
+        for para in doc.paragraphs:
+            text = para.text.strip()
+            if text:
+                paragraphs.append(text)
+                raw_text += text + "\n"
+        
+        # 提取表格
+        for table in doc.tables:
+            table_data = []
+            for row in table.rows:
+                row_data = [cell.text.strip() for cell in row.cells]
+                table_data.append(row_data)
+            if table_data:
+                tables.append(table_data)
+    except Exception as e:
+        # 备用方案：使用 zipfile 直接读取 document.xml
+        try:
+            import zipfile
+            from xml.etree import ElementTree as ET
+            
+            with zipfile.ZipFile(file_path, 'r') as z:
+                xml_content = z.read('word/document.xml')
+            
+            # 解析 XML
+            root = ET.fromstring(xml_content)
+            
+            # Word 命名空间
+            ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+            
+            # 提取所有段落文本
+            for para in root.findall('.//w:p', ns):
+                texts = []
+                for t in para.findall('.//w:t', ns):
+                    if t.text:
+                        texts.append(t.text)
+                if texts:
+                    text = ''.join(texts).strip()
+                    if text:
+                        paragraphs.append(text)
+                        raw_text += text + "\n"
+        except Exception as e2:
+            print(f"解析 Word 时出错: {e}, 备用方案也失败: {e2}")
     
     return paragraphs, tables, raw_text
 
@@ -90,23 +120,22 @@ def _parse_xlsx(file_path: str) -> tuple:
     raw_text = ""
     
     try:
-        # 使用with语句确保文件正确关闭
-        with pd.ExcelFile(file_path) as xl_file:
-            for sheet_name in xl_file.sheet_names:
-                df = xl_file.parse(sheet_name)
-                # 将表格转换为三维列表
-                table_data = [df.columns.tolist()] + df.values.tolist()
-                # 转换所有值为字符串
-                table_data = [[str(cell) if cell is not None else "" for cell in row] for row in table_data]
-                tables.append(table_data)
-                
-                # 提取文本内容用于 raw_text
-                sheet_text = f"Sheet: {sheet_name}\n"
-                for _, row in df.iterrows():
-                    row_text = " ".join([str(cell) for cell in row if cell is not None])
-                    if row_text.strip():
-                        sheet_text += row_text + "\n"
-                raw_text += sheet_text + "\n"
+        # 使用pandas读取
+        df = pd.read_excel(file_path)
+        
+        # 将表格转换为三维列表
+        table_data = [df.columns.tolist()] + df.values.tolist()
+        # 转换所有值为字符串
+        table_data = [[str(cell) if cell is not None else "" for cell in row] for row in table_data]
+        tables.append(table_data)
+        
+        # 提取文本内容用于 raw_text
+        sheet_text = "Sheet: Sheet1\n"
+        for _, row in df.iterrows():
+            row_text = " ".join([str(cell) for cell in row if cell is not None])
+            if row_text.strip():
+                sheet_text += row_text + "\n"
+        raw_text += sheet_text + "\n"
     except Exception as e:
         print(f"解析 Excel 时出错: {e}")
     

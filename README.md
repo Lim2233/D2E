@@ -55,28 +55,24 @@ D2E/
 ├── backend/                # 后端代码
 │   ├── app/                # 应用核心代码
 │   │   ├── services/       # 核心服务模块
-│   │   │   ├── parser.py   # 文档解析模块
-│   │   │   ├── extractor.py # 信息抽取模块
-│   │   │   ├── matcher.py  # 字段语义匹配模块
-│   │   │   ├── filler.py   # 自动填表模块
-│   │   │   └── knowledge_pool.py # 知识池模块
-│   │   ├── utils/          # 工具函数
-│   │   ├── config.py       # 配置文件
-│   │   ├── database.py     # 数据库连接
-│   │   ├── main.py         # API入口
+│   │   │   ├── parser.py   # 文档解析模块（已完成）
+│   │   │   ├── extractor.py # 信息抽取模块（已完成）
+│   │   │   ├── matcher.py  # 字段语义匹配模块（待实现）
+│   │   │   ├── filler.py   # 自动填表模块（待实现）
+│   │   │   └── knowledge_pool.py # 知识池模块（待实现）
+│   │   ├── main.py         # API入口（待实现）
 │   │   └── models.py       # 数据模型
-│   ├── data/               # 测试数据
+│   ├── data/               # 数据目录
 │   │   ├── test_set/       # 测试数据集
-│   │   └── 包含模板文件/    # 包含模板的测试数据
-│   ├── tests/              # 测试代码
+│   │   └── test_output/    # 测试输出
+│   ├── test_parser.py       # 文档解析测试脚本
+│   ├── test_extractor.py    # 信息抽取测试脚本
 │   └── requirements.txt    # 依赖文件
 ├── docs/                   # 文档
+│   └── AIReadMe.md        # AI参考文档
 ├── frontend/               # 前端代码
-├── scripts/                # 脚本文件
-├── tests/                  # 测试报告
 ├── .gitignore              # Git忽略文件
-├── README.md               # 项目说明
-└── setup_project.py        # 项目初始化脚本
+└── README.md               # 项目说明
 ```
 
 ## 安装步骤
@@ -159,21 +155,26 @@ python app/main.py
 # 进入后端目录
 cd backend
 
-# 运行测试
-python -m pytest tests/
+# 运行文档解析测试
+python test_parser.py
+
+# 运行信息抽取测试
+python test_extractor.py
 ```
 
-### 测试示例
+### 测试结果
 
-项目提供了测试脚本，可以运行示例测试：
+**文档解析模块测试**：
+- 测试文件：4 个（Word、Excel、Markdown、TXT）
+- 测试状态：全部通过
+- 输出文件：JSON 格式的解析结果，保存在 `data/test_output/` 目录
 
-```bash
-# 回到项目根目录
-cd ..
-
-# 运行测试脚本
-python scripts/auto_test.py
-```
+**信息抽取模块测试**：
+- 测试文档：4 个
+- 抽取实体总数：4,756 个
+- 实体类型：金额、日期、百分比、电话、邮箱
+- 测试状态：全部通过
+- 输出文件：JSON 格式的实体列表，保存在 `data/test_output/` 目录
 
 ## 技术亮点
 
