@@ -57,20 +57,32 @@ D2E/
 │   │   ├── services/       # 核心服务模块
 │   │   │   ├── parser.py   # 文档解析模块（已完成）
 │   │   │   ├── extractor.py # 信息抽取模块（已完成）
-│   │   │   ├── matcher.py  # 字段语义匹配模块（待实现）
-│   │   │   ├── filler.py   # 自动填表模块（待实现）
-│   │   │   └── knowledge_pool.py # 知识池模块（待实现）
-│   │   ├── main.py         # API入口（待实现）
-│   │   └── models.py       # 数据模型
+│   │   │   ├── matcher.py  # 字段语义匹配模块（已完成）
+│   │   │   ├── filler.py   # 自动填表模块（已完成）
+│   │   │   └── knowledge_pool.py # 知识池模块（已完成）
+│   │   ├── utils/          # 工具模块
+│   │   │   ├── helpers.py  # 辅助函数
+│   │   │   ├── regex_patterns.py # 正则表达式模式
+│   │   │   └── vectorizer.py # 向量化工具
+│   │   ├── main.py         # API入口（已完成）
+│   │   ├── models.py       # 数据模型
+│   │   ├── database.py     # 数据库连接
+│   │   └── config.py       # 配置文件
 │   ├── data/               # 数据目录
 │   │   ├── test_set/       # 测试数据集
 │   │   └── test_output/    # 测试输出
-│   ├── test_parser.py       # 文档解析测试脚本
-│   ├── test_extractor.py    # 信息抽取测试脚本
-│   └── requirements.txt    # 依赖文件
+│   ├── tests/              # 测试脚本
+│   │   ├── test_parser.py       # 文档解析测试
+│   │   ├── test_extractor.py    # 信息抽取测试
+│   │   └── test_matcher.py      # 语义匹配测试
+│   ├── requirements.txt    # 依赖文件
+│   └── start.py            # 启动脚本
 ├── docs/                   # 文档
-│   └── AIReadMe.md        # AI参考文档
+│   ├── AIReadMe.md        # AI参考文档
+│   └── ProjectOverview.md # 项目概览
 ├── frontend/               # 前端代码
+├── scripts/                # 脚本文件
+├── tests/                  # 测试报告
 ├── .gitignore              # Git忽略文件
 └── README.md               # 项目说明
 ```

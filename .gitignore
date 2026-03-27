@@ -114,3 +114,46 @@ frontend/.cache/
 
 # 忽略大语言模型缓存（若使用本地模型）
 models_cache/
+
+# 忽略测试报告
+/tests/reports/
+
+# 忽略临时文件
+*.tmp
+*.temp
+
+# 忽略运行时生成的文件
+*.pid
+*.seed
+*.pid.lock
+
+# 忽略 Python 编译产物
+__pycache__/
+*.py[cod]
+
+# 忽略系统文件
+Thumbs.db
+.DS_Store
+
+# 忽略 IDE 相关文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 忽略虚拟环境
+venv/
+env/
+
+# 忽略构建产物
+build/
+dist/
+
+# 忽略安装包
+*.egg
+*.egg-info/
+
+# 忽略日志文件
+*.log
+logs/
