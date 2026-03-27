@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-26T13:25:02.602467",
+  "start_time": "2026-03-26T13:24:58.497909",
+  "end_time": "2026-03-26T13:25:02.602461",
+  "duration": "0:00:04.104552",
+  "results": {
+    "backend.tests.test_parser": {
+      "success": true,
+      "tests_run": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    "backend.tests.test_extractor": {
+      "success": true,
+      "tests_run": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    "backend.tests.test_matcher": {
+      "success": false,
+      "tests_run": 0,
+      "failures": 1,
+      "errors": 0,
+      "error_message": "[WinError 10022] 提供了一个无效的参数。"
+    }
+  },
+  "summary": {
+    "total_tests": 8,
+    "total_failures": 1,
+    "total_errors": 0,
+    "overall_success": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-03-26T13:25:35.153560",
+  "start_time": "2026-03-26T13:25:31.314345",
+  "end_time": "2026-03-26T13:25:35.153555",
+  "duration": "0:00:03.839210",
+  "results": {
+    "backend.tests.test_parser": {
+      "success": true,
+      "tests_run": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    "backend.tests.test_extractor": {
+      "success": true,
+      "tests_run": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    "backend.tests.test_matcher": {
+      "success": false,
+      "tests_run": 3,
+      "failures": 2,
+      "errors": 0
+    }
+  },
+  "summary": {
+    "total_tests": 11,
+    "total_failures": 2,
+    "total_errors": 0,
+    "overall_success": false
+  }
+}

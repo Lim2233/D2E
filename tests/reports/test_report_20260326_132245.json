@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-03-26T13:22:45.496031",
+  "start_time": "2026-03-26T13:22:45.415036",
+  "end_time": "2026-03-26T13:22:45.496027",
+  "duration": "0:00:00.080991",
+  "results": {
+    "backend.tests.test_parser": {
+      "success": false,
+      "tests_run": 0,
+      "failures": 1,
+      "errors": 0,
+      "error_message": "No module named 'app'"
+    },
+    "backend.tests.test_extractor": {
+      "success": false,
+      "tests_run": 0,
+      "failures": 1,
+      "errors": 0,
+      "error_message": "No module named 'app'"
+    },
+    "backend.tests.test_matcher": {
+      "success": false,
+      "tests_run": 0,
+      "failures": 1,
+      "errors": 0,
+      "error_message": "No module named 'app'"
+    }
+  },
+  "summary": {
+    "total_tests": 0,
+    "total_failures": 3,
+    "total_errors": 0,
+    "overall_success": false
+  }
+}

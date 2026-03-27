@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-03-26T13:22:25.389171",
+  "start_time": "2026-03-26T13:22:25.385073",
+  "end_time": "2026-03-26T13:22:25.389167",
+  "duration": "0:00:00.004094",
+  "results": {
+    "tests.test_parser": {
+      "success": false,
+      "tests_run": 0,
+      "failures": 1,
+      "errors": 0,
+      "error_message": "No module named 'tests.test_parser'"
+    },
+    "tests.test_extractor": {
+      "success": false,
+      "tests_run": 0,
+      "failures": 1,
+      "errors": 0,
+      "error_message": "No module named 'tests.test_extractor'"
+    },
+    "tests.test_matcher": {
+      "success": false,
+      "tests_run": 0,
+      "failures": 1,
+      "errors": 0,
+      "error_message": "No module named 'tests.test_matcher'"
+    }
+  },
+  "summary": {
+    "total_tests": 0,
+    "total_failures": 3,
+    "total_errors": 0,
+    "overall_success": false
+  }
+}
