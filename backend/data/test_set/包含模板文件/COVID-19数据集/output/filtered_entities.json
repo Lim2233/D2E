@@ -1,0 +1,436 @@
+[
+  {
+    "entity_type": "日期",
+    "value": "2020-07-01",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-02",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-03",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-04",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-05",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-06",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-07",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-08",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-09",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-10",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-11",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-12",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-13",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-14",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-15",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-16",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-17",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-18",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-19",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-20",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-21",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-22",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-23",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-24",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-25",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-26",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-27",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-28",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-29",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-30",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-07-31",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-01",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-02",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-03",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-04",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-05",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-06",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-07",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-08",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-09",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-10",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-11",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-12",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-13",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-14",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-15",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-16",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-17",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-18",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-19",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-20",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-21",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-22",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-23",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-24",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-25",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-26",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-27",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-28",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-29",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-30",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "日期",
+    "value": "2020-08-31",
+    "source_doc": "83c22261-422b-4926-a617-68fed91eb2c9",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  }
+]

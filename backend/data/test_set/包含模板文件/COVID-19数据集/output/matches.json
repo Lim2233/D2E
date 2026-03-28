@@ -1,0 +1,62 @@
+{
+  "国家/地区": {
+    "entity": {
+      "entity_type": "国家/地区",
+      "value": "Albania",
+      "source_doc": "global_data",
+      "paragraph_index": 0,
+      "confidence": 0.9
+    },
+    "score": 0.7
+  },
+  "大洲": {
+    "entity": {
+      "entity_type": "大洲",
+      "value": "Europe",
+      "source_doc": "global_data",
+      "paragraph_index": 0,
+      "confidence": 0.9
+    },
+    "score": 0.7
+  },
+  "人均GDP": {
+    "entity": {
+      "entity_type": "人均GDP",
+      "value": "5353.2",
+      "source_doc": "global_data",
+      "paragraph_index": 0,
+      "confidence": 0.9
+    },
+    "score": 0.7
+  },
+  "人口": {
+    "entity": {
+      "entity_type": "人口",
+      "value": "2873457",
+      "source_doc": "global_data",
+      "paragraph_index": 0,
+      "confidence": 0.9
+    },
+    "score": 0.7
+  },
+  "每日检测数": {
+    "entity": {
+      "entity_type": "每日检测数",
+      "value": "269.0",
+      "source_doc": "global_data",
+      "paragraph_index": 0,
+      "confidence": 0.9
+    },
+    "score": 0.7
+  },
+  "病例数": {
+    "entity": {
+      "entity_type": "病例数",
+      "value": "2580.0",
+      "source_doc": "global_data",
+      "paragraph_index": 0,
+      "confidence": 0.9
+    },
+    "score": 0.7
+  }
+}

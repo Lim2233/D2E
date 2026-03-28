@@ -1,0 +1,674 @@
+[
+  {
+    "entity_type": "金额",
+    "value": "2020",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "7",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "27",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 0,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "31",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 1,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "68",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 1,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "64",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 1,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "4",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 1,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "5775",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 2,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "7.3",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 2,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "12.6",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 2,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "267",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 2,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "2094",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 2,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "24",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 2,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "1.26",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 3,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "9.6",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 3,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "38.2",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 3,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "2343",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 3,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "9640",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 4,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "5.5",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 4,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "21.5",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 4,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "8367",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 5,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "5.8",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 5,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "19.3",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 5,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "8475",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 6,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "12.1",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 6,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "31.7",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 6,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "7461",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 7,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "4.8",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 7,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "1",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 7,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "15.8",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 7,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "6644",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 8,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "6.3",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 8,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "17.2",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 8,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "6103",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 9,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "14.9",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 9,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "5013",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 10,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "4.4",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 10,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "11.6",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 10,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "4721",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 11,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "13.4",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 11,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "4519",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 12,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "5.3",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 12,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "10.7",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 12,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "4259",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 13,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "5.9",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 13,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "6",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 13,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "42.3",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 13,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "50",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 13,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "8",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 13,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "4154",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 14,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "10.6",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 14,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "16.5",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 14,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "3492",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 15,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "5.1",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 15,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "9.8",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 15,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "3856",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 16,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "4.6",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 16,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "10.3",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 16,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "3205",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 17,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "7.8",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 17,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "18.6",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 17,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "2407",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 18,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "8.7",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 18,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "2502",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 19,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "3.6",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 19,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "7.9",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 19,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "2405",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 20,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "6.8",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 20,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "9.2",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 20,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "3185",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 21,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "4.3",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 21,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "11.3",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 21,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "2585",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 22,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "57",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 22,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "89.5",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 22,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "10",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 22,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "2",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 22,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "70",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 22,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "2487",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 23,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "15.6",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 23,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "45.8",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 23,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "117",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 23,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "2189",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 24,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "52.1",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 24,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "21",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 24,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "1387",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 25,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "14.3",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 25,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "1008",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 26,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "6.5",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 26,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "720",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 27,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "5.4",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 27,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "5.2",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 27,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "592",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 28,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "4.1",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 28,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "365",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 29,
+    "confidence": 0.9
+  },
+  {
+    "entity_type": "金额",
+    "value": "2.7",
+    "source_doc": "2b2437a4-a086-4448-9dd7-3eae5de30e74",
+    "paragraph_index": 29,
+    "confidence": 0.9
+  }
+]
